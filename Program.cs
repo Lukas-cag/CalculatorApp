@@ -29,7 +29,7 @@ namespace CalculatorApp
             operation = Console.ReadLine();
 
             int num1int = Int32.Parse(num1);
-            int num2int = Int32.Parse(num1);
+            int num2int = Int32.Parse(num2);
 
 
                 if (operation.ToLower() == "add" || operation.ToLower() == "addition")
